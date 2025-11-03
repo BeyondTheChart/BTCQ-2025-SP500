@@ -124,6 +124,107 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
 
 ---
+---
+
+<h2>Additional Metrics</h2>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/return_distribution.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Return per Trade Distribution</b><br>
+  Skew and tail structure showing asymmetry and non-Gaussian behavior in single-trade returns.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/qqplot_returns.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>QQ-Plot</b><br>
+  Deviation from the Gaussian return model highlighting excess kurtosis and fat tails.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/var_cvar.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Tail Risk (VaR / CVaR)</b><br>
+  Historical simulation of losses at 95–99% confidence confirming clustered volatility and heavy downside tails.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_win_rate_payoff_ratio.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Rolling Win Rate / Payoff Ratio</b><br>
+  Behavioral consistency monitor showing how win rate and payoff evolve under different volatility regimes.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/hurst_adf.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Hurst & ADF Test</b><br>
+  Persistence and mean-reversion analysis of the equity process; lower values indicate a decaying structural edge.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Edge Decay Trend</b><br>
+  Rolling mean P/L trajectory highlighting the rate of structural degradation in the trading edge.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Monte Carlo Simulation (500 runs)</b><br>
+  Final equity distribution showing expected dispersion, skew, and risk of ruin under random sequencing.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cumulative_survival_curve.png?raw=true" width="100%">
+</td>
+<td width="45%" valign="top">
+  <b>Survival Probability</b><br>
+  Cumulative likelihood of account persistence across simulations, quantifying long-term survivability.
+</td>
+</tr>
+</table>
+
+---
 
 ## Quantitative Performance Summary
 
