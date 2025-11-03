@@ -1,0 +1,9 @@
+data/raw/
+*.csv
+*.zip
+*.log
+*.tmp
+*.bak
+__pycache__/
+.ipynb_checkpoints/
+.env
