@@ -35,6 +35,44 @@ All computations were executed using Python (NumPy, SciPy, pandas, statsmodels, 
 The analysis applies both classical statistics and non-linear stochastic diagnostics to capture drift, persistence, and tail asymmetries.
 
 ---
+---
+
+## Visual Results
+
+### Equity & Drawdown
+![](results/charts/equity_drawdown.png)
+
+### Return Distribution
+![](results/charts/return_distribution.png)
+
+### QQ-Plot of Returns
+![](results/charts/qqplot_returns.png)
+
+### Tail Risk — VaR / CVaR
+![](results/charts/var_cvar.png)
+
+### Rolling Sharpe & Sortino
+![](results/charts/rolling_sharpe_sortino.png)
+
+### Drawdown Profile
+![](results/charts/drawdown_profile.png)
+
+### Rolling Win Rate / Payoff Ratio
+![](results/charts/winrate_payoff.png)
+
+### Hurst & ADF Test
+![](results/charts/hurst_adf.png)
+
+### Edge Decay Trend
+![](results/charts/edge_decay.png)
+
+### Monte Carlo Equity Simulation
+![](results/charts/montecarlo_equity.png)
+
+### Survival Probability Curve
+![](results/charts/survival_curve.png)
+
+---
 
 ## Quantitative Performance Summary
 
