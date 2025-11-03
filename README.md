@@ -91,6 +91,17 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
    The forecast fan chart and survival curve demonstrate a 60–70 % probability of capital impairment beyond 300 trades, confirming edge erosion under variance amplification.
 
 ---
+#### Equity & Drawdown
+The equity curve reveals alternating high-volatility clusters and deep drawdowns exceeding 100%,
+confirming tail clustering typical of over-leveraged mean-reverting exposure.
+
+#### VaR / CVaR
+Historical simulation of tail risk confirms disproportionate loss magnitude relative to trade frequency,
+indicating structural asymmetry within negative outcomes.
+
+#### Edge Decay
+Rolling average P/L demonstrates a downward bias after trade #300,
+signaling exhaustion of the initial structural advantage.
 
 ## Behavioral Layer
 
