@@ -3,14 +3,25 @@
 **Date:** 3 November 2025  
 **© 2025 Beyond the Chart | Proprietary Quantitative & Behavioral Research**
 
+[![Beyond the Chart](https://img.shields.io/badge/Beyond_the_Chart-Research-black)](https://github.com/BeyondTheChart)
+
+---
+
+## Executive Summary
+
+The analyzed S&P 500 trading system demonstrates strong initial performance followed by measurable structural decay.  
+While maintaining an 84% win rate, expectancy deteriorates through volatility amplification and asymmetric loss clustering.  
+Monte Carlo simulations and survival analysis confirm progressive edge erosion under variance expansion.  
+Behavioral metrics reveal emotional overreach — especially during high-volatility phases — validating a link between structural and psychological instability.
+
 ---
 
 ## Abstract
 
-This report delivers a full quantitative and behavioral assessment of an S&P 500 trading account.  
-We combine classical risk–return diagnostics with structural and behavioral indicators to evaluate the internal stability of the trading edge over 500 discrete trades.  
-Findings point to structural decay manifested by volatility amplification, clustered drawdowns, and declining risk-adjusted returns despite a high win rate.  
-Monte Carlo stress tests and regime diagnostics indicate that positive expectancy is undermined by asymmetric downside tails and unstable payoff ratios.
+This report presents a full quantitative and behavioral performance analysis on an S&P 500 trading account.  
+It integrates classical risk–return statistics with behavioral diagnostics to evaluate the internal stability of the trading edge over 500 trades.  
+Results reveal an accelerating drawdown frequency, deteriorating risk-adjusted returns, and tail clustering consistent with mean-reversion overload.  
+Monte Carlo stress tests confirm that positive expectancy decays through asymmetric downside exposure and behavioral drift.
 
 ---
 
@@ -20,13 +31,13 @@ Monte Carlo stress tests and regime diagnostics indicate that positive expectanc
 - **Sample:** 500 executed trades  
 - **Data Frequency:** Trade-by-trade (aggregated from tick-level execution logs)  
 - **Period Covered:** Up to 3 November 2025  
-- **Framework:** Hybrid quantitative–behavioral model covering volatility response, frequency drift, and edge-decay dynamics  
+- **Framework:** Hybrid quantitative–behavioral model integrating volatility response, frequency drift, and edge-decay analysis  
 - **Analytical Modules:**
   - Equity curve and drawdown decomposition  
   - Return distribution and QQ-plot validation  
   - Historical VaR/CVaR simulation (95–99%)  
   - Rolling Sharpe & Sortino (100-trade windows)  
-  - Hurst exponent and ADF stationarity testing  
+  - Hurst exponent and ADF stationarity test  
   - Edge-decay modeling (rolling mean P/L trend)  
   - Monte Carlo stress testing (500 reshuffled paths)  
   - Cumulative survival probability estimation  
@@ -39,88 +50,88 @@ The analysis blends classical statistics with non-linear stochastic diagnostics 
 ## Visual Results
 
 ### Equity & Drawdown
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/equity_drawdown.png?raw=true)
+![](results/charts/equity_drawdown.png)
 
 ### Drawdown Profile
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/drawdown_profile.png?raw=true)
+![](results/charts/drawdown_profile.png)
 
 ### Drawdown Duration
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/drawdown_duration.png?raw=true)
+![](results/charts/drawdown_duration.png)
 
 ### Recovery Time Drawdown
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/recovery_time_drawdown.png?raw=true)
+![](results/charts/recovery_time_drawdown.png)
 
 ### Rolling Sharpe & Sortino
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_sharpe_sortino.png?raw=true)
+![](results/charts/rolling_sharpe_sortino.png)
 
 ### Rolling Win Rate / Payoff Ratio
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_winrate_payoff_ratio.png?raw=true)
+![](results/charts/rolling_winrate_payoff_ratio.png)
 
 ### Payoff Stability
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/payoff_stability.png?raw=true)
+![](results/charts/payoff_stability.png)
 
 ### Risk Curve Cumulative
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/risk_curve_cumulative.png?raw=true)
+![](results/charts/risk_curve_cumulative.png)
 
-### Cumulative Survival Curve
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/survival_probability.png?raw=true)
+### Survival Probability
+![](results/charts/survival_probability.png)
 
 ### Expected Annual Outcome
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/expected_annual_outcome.png?raw=true)
+![](results/charts/expected_annual_outcome.png)
 
 ### Final Equity Distribution
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/final_equity_distribution.png?raw=true)
+![](results/charts/final_equity_distribution.png)
 
 ### Monte Carlo Simulation
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true)
+![](results/charts/montecarlo_simulation.png)
 
 ### Monte Carlo Fan Chart
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_fan_chart.png?raw=true)
+![](results/charts/montecarlo_fan_chart.png)
 
 ### Change Point Equity
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/change_point_equity.png?raw=true)
+![](results/charts/change_point_equity.png)
 
 ### Edge Decay Trend
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true)
+![](results/charts/edge_decay_trend.png)
 
 ### Edge Decay Trend (Rolling Avg P/L – 30)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend_rolling.png?raw=true)
+![](results/charts/edge_decay_trend_rolling.png)
 
 ### Edge Decay Timeline
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_timeline.png?raw=true)
+![](results/charts/edge_decay_timeline.png)
 
 ### Edge Collapse Root Cause Matrix
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_collapse_root_cause_matrix.png?raw=true)
+![](results/charts/edge_collapse_root_cause_matrix.png)
 
 ### Edge Early-Warning Panel
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_early_warning_panel.png?raw=true)
+![](results/charts/edge_early_warning_panel.png)
 
-### Behavior-Structure Equilibrium Map
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_structure_equilibrium_map.png?raw=true)
+### Behavior–Structure Equilibrium Map
+![](results/charts/behavior_structure_equilibrium_map.png)
 
 ### Behavior vs Structure — Enhanced Sensitivity
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_enhanced_sensitivity.png?raw=true)
+![](results/charts/behavior_vs_structure_enhanced_sensitivity.png)
 
 ### Behavior vs Structure — Stress Pressure
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_stress_pressure.png?raw=true)
+![](results/charts/behavior_vs_structure_stress_pressure.png)
 
 ### Behavior vs Structure — Timeline
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_timeline.png?raw=true)
+![](results/charts/behavior_vs_structure_timeline.png)
 
 ### ACF Returns
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/acf_returns.png?raw=true)
+![](results/charts/acf_returns.png)
 
 ### PACF Returns
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/pacf_returns.png?raw=true)
+![](results/charts/pacf_returns.png)
 
 ### Ulcer Index
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/ulcer_index.png?raw=true)
+![](results/charts/ulcer_index.png)
 
 ### Sortino Stress — Downside Risk
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/sortino_stress_downside_risk.png?raw=true)
+![](results/charts/sortino_stress_downside_risk.png)
 
 ### Beyond Risk Metrics — Table
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
+![](results/charts/beyond_risk_metrics_table.png)
 
 ---
 
@@ -203,33 +214,27 @@ Cumulative likelihood of account persistence across the trade sequence horizon.
 
 ---
 
-### Equity & Drawdown (Narrative)
+### Narrative Highlights
 
-The equity curve alternates high-volatility clusters with deep drawdowns exceeding 100%, a signature of over-leveraged mean-reversion under adverse regimes.
-
-### VaR / CVaR (Narrative)
-
-Tail-risk simulation confirms disproportionate loss magnitude relative to trade frequency, revealing asymmetric downside dynamics.
-
-### Edge Decay (Narrative)
-
-The rolling mean P/L drifts downward after ~trade #300, signaling exhaustion of the initial structural advantage.
+**Equity & Drawdown:** Alternating high-volatility clusters and deep drawdowns exceeding 100% confirm tail clustering typical of over-leveraged mean-reversion exposure.  
+**VaR / CVaR:** Tail-risk simulation confirms disproportionate loss magnitude relative to trade frequency, revealing asymmetric downside dynamics.  
+**Edge Decay:** Rolling mean P/L drifts downward after ~trade #300, signaling exhaustion of the initial structural advantage.
 
 ---
 
 ## Behavioral Layer
 
 While the quantitative layer identifies edge decay, behavioral drift is visible in the frequency and amplitude of trade clustering.  
-Periods of elevated trade density align with higher-volatility regimes and payoff asymmetry — a pattern consistent with overconfidence and latent FOMO bias.  
-These behavioral signatures precede quantitative decay and can operate as early warnings of edge exhaustion.
+Periods of elevated trade density align with higher-volatility regimes and payoff asymmetry — a behavioral pattern linked to overconfidence and latent FOMO bias.  
+These psychological signatures precede quantitative decay and serve as early-warning indicators of edge exhaustion.
 
 ---
 
 ## Conclusion
 
-The examined S&P 500 account exhibits **measurable performance decay** and **behavioral instability**.  
-An initially positive edge deteriorates under volatility expansion, driving weaker risk-adjusted outcomes and excessive drawdowns.  
-Absent volatility normalization and tighter risk controls, long-horizon expectancy remains statistically negative.
+The S&P 500 trading account demonstrates **measurable performance decay** and **behavioral instability**.  
+An initially positive edge deteriorates under volatility expansion, resulting in weaker risk-adjusted outcomes and recurring drawdowns.  
+Without volatility normalization and disciplined risk controls, long-term expectancy remains statistically negative.
 
 ---
 
@@ -242,10 +247,26 @@ Absent volatility normalization and tighter risk controls, long-horizon expectan
 
 ---
 
+### Glossary
+
+- **Edge Decay:** Gradual loss of structural advantage observed through rolling P/L averages.  
+- **Hurst Exponent:** Indicator of persistence or anti-persistence in time-series returns.  
+- **VaR / CVaR:** Measures of extreme downside risk at specified confidence levels.  
+- **Calmar Ratio:** Return-to-drawdown efficiency metric.  
+- **Behavioral Drift:** Systematic psychological bias correlated with performance decay.
+
+---
+
+## Version History
+
+- **v1.0 (Nov 2025)** — Initial full quantitative & behavioral report published.  
+- **v1.1 (TBD)** — Integration of predictive drift metrics and behavioral clustering dashboard.
+
+---
+
 ## Legal Notice
 
 © 2025 Beyond the Chart — All rights reserved.  
 This repository and its contents (data, code, and visual materials) are proprietary.  
 No part of this report may be copied, redistributed, or used commercially without explicit written permission from Beyond the Chart.  
 For institutional collaboration or partnership inquiries, contact: **[add your professional email or LinkedIn link]**
-
