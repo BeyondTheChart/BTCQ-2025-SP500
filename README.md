@@ -77,9 +77,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### Change Point Equity
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/change_point_equity.png?raw=true)
 
-### Change Point Analysis
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/change_point_analysis.png?raw=true)
-
 ### Edge Decay Trend
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true)
 
@@ -130,9 +127,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 
 ### Sortino Stress Downside Risk
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/sortino_stress_downside_risk.png?raw=true)
-
-### Consistency Panel
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/consistency_panel.png?raw=true)
 
 ### Beyond Risk Metrics Table
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
