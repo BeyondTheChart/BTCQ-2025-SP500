@@ -1,4 +1,5 @@
 # Quantitative & Behavioral Analysis — S&P 500  
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cover_banner.png?raw=true)
 **Report ID:** BTCQ-2025-3484  
 **Date:** 3 November 2025  
 **© 2025 Beyond the Chart | Proprietary Quantitative & Behavioral Research**
