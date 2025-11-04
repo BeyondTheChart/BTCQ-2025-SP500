@@ -34,6 +34,8 @@ Monte Carlo simulations and regime diagnostics confirm that the strategy’s pos
 All computations were executed using Python (NumPy, SciPy, pandas, statsmodels, matplotlib).  
 The analysis applies both classical statistics and non-linear stochastic diagnostics to capture drift, persistence, and tail asymmetries.
 
+---
+
 ## Visual Results
 
 ### Equity & Drawdown
@@ -120,6 +122,8 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### Beyond Risk Metrics Table
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
 
+---
+
 ## Additional Metrics
 
 ### Return per Trade Distribution
@@ -153,6 +157,9 @@ Final equity distribution from 500 randomized trade-order simulations, confirmin
 ### Survival Probability
 ![](results/charts/survival_probability.png)
 Cumulative likelihood of account persistence across the trade sequence horizon.
+
+---
+
 
 ## Quantitative Performance Summary
 
