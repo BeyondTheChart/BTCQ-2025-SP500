@@ -199,24 +199,6 @@ Cumulative likelihood of account persistence across the trade sequence horizon.
 
 ---
 
-## Visual Results
-
-| Chart | Description |
-|-------|--------------|
-| ![](results/charts/equity_drawdown.png) | **Equity & Drawdown Profile** — total return and cumulative losses. |
-| ![](results/charts/return_distribution.png) | **Return per Trade Distribution** — skew and tail structure. |
-| ![](results/charts/qqplot_returns.png) | **QQ-Plot** — deviation from Gaussian return model. |
-| ![](results/charts/var_cvar.png) | **Tail Risk (VaR / CVaR)** — historical simulation 95–99 %. |
-| ![](results/charts/rolling_sharpe_sortino.png) | **Rolling Sharpe & Sortino** — 100-trade window risk-adjusted performance. |
-| ![](results/charts/drawdown_profile.png) | **Drawdown Dynamics (%)** — clustering and depth analysis. |
-| ![](results/charts/winrate_payoff.png) | **Rolling Win Rate / Payoff Ratio** — behavioral consistency. |
-| ![](results/charts/hurst_adf.png) | **Hurst & ADF** — persistence and mean-reversion characteristics. |
-| ![](results/charts/edge_decay.png) | **Edge Decay Trend** — rolling mean P/L trajectory. |
-| ![](results/charts/montecarlo_equity.png) | **Monte Carlo Simulation (500 runs)** — final equity distribution. |
-| ![](results/charts/survival_curve.png) | **Survival Probability** — cumulative likelihood of account persistence. |
-
----
-
 ## Quantitative Interpretation
 
 1. **Performance Instability:**  
