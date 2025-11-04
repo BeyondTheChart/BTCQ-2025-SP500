@@ -82,17 +82,11 @@ The analysis blends classical statistics with non-linear stochastic diagnostics 
 ### Final Equity Distribution
 ![](results/charts/final_equity_distribution.png)
 
-### Monte Carlo Simulation
-![](results/charts/montecarlo_simulation.png)
-
 ### Monte Carlo Fan Chart
 ![](results/charts/montecarlo_fan_chart.png)
 
 ### Change Point Equity
 ![](results/charts/change_point_equity.png)
-
-### Edge Decay Trend
-![](results/charts/edge_decay_trend.png)
 
 ### Edge Decay Trend (Rolling Avg P/L – 30)
 ![](results/charts/edge_decay_trend_rolling.png)
