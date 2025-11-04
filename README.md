@@ -121,8 +121,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 
 ### Beyond Risk Metrics Table
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
-
-
 </table>
 
 ---
