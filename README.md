@@ -35,196 +35,179 @@ All computations were executed using Python (NumPy, SciPy, pandas, statsmodels, 
 The analysis applies both classical statistics and non-linear stochastic diagnostics to capture drift, persistence, and tail asymmetries.
 
 ---
----
 
 ## Visual Results
 
 ### Equity & Drawdown
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/equity_drawdown.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/equity_drawdown.png?raw=true)
 
 ### Drawdown Profile
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/drawdown_profile.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/drawdown_profile.png?raw=true)
 
 ### Drawdown Duration
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/drawdown_duration.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/drawdown_duration.png?raw=true)
 
 ### Recovery Time Drawdown
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/recovery_time_drawdown.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/recovery_time_drawdown.png?raw=true)
 
 ### Rolling Sharpe & Sortino
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_sharpe_sortino.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/rolling_sharpe_sortino.png?raw=true)
 
 ### Payoff Stability
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/payoff_stability.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/payoff_stability.png?raw=true)
 
 ### Risk Curve Cumulative
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/risk_curve_cumulative.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/risk_curve_cumulative.png?raw=true)
 
 ### Cumulative Survival Curve
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cumulative_survival_curve.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/cumulative_survival_curve.png?raw=true)
 
 ### Expected Annual Outcome
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/expected_annual_outcome.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/expected_annual_outcome.png?raw=true)
 
 ### Final Equity Distribution
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/final_equity_distribution.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/final_equity_distribution.png?raw=true)
 
 ### Monte Carlo Simulation
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/montecarlo_simulation.png?raw=true)
 
 ### Monte Carlo Fan Chart
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_fan_chart.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/montecarlo_fan_chart.png?raw=true)
 
 ### Change Point Equity
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/change_point_equity.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/change_point_equity.png?raw=true)
 
 ### Change Point Analysis
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/change_point_analysis.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/change_point_analysis.png?raw=true)
 
 ### Edge Decay Trend
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/edge_decay_trend.png?raw=true)
 
 ### Edge Decay Timeline
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_timeline.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/edge_decay_timeline.png?raw=true)
 
 ### Edge Collapse Root Cause Matrix
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_collapse_root_cause_matrix.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/edge_collapse_root_cause_matrix.png?raw=true)
 
 ### Edge Early-Warning Panel
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_early_warning_panel.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/edge_early_warning_panel.png?raw=true)
 
 ### Behavior-Structure Equilibrium Map
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_structure_equilibrium_map.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/behavior_structure_equilibrium_map.png?raw=true)
 
 ### Behavior vs Structure Enhanced Sensitivity
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_enhanced_sensitivity.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/behavior_vs_structure_enhanced_sensitivity.png?raw=true)
 
 ### Behavior vs Structure Stress Pressure
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_stress_pressure.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/behavior_vs_structure_stress_pressure.png?raw=true)
 
 ### Behavior vs Structure Timeline
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/behavior_vs_structure_timeline.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/behavior_vs_structure_timeline.png?raw=true)
 
 ### ACF Returns
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/acf_returns.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/acf_returns.png?raw=true)
 
 ### PACF Returns
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/pacf_returns.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/pacf_returns.png?raw=true)
 
 ### Ulcer Index
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/ulcer_index.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/ulcer_index.png?raw=true)
 
 ### Sortino Stress Downside Risk
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/sortino_stress_downside_risk.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/sortino_stress_downside_risk.png?raw=true)
 
 ### Consistency Panel
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/consistency_panel.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/consistency_panel.png?raw=true)
 
 ### Beyond Risk Metrics Table
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/beyond_risk_metrics_table.png?raw=true)
 
 ---
----
 
-<h2>Additional Metrics</h2>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/return_distribution.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Return per Trade Distribution</b><br>
-  Skew and tail structure showing asymmetry and non-Gaussian behavior in single-trade returns.
-</td>
-</tr>
-</table>
+<h2>📊 Additional Metrics</h2>
 
 <table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/qqplot_returns.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>QQ-Plot</b><br>
-  Deviation from the Gaussian return model highlighting excess kurtosis and fat tails.
-</td>
-</tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/return_distribution.png?raw=true" alt="Return per Trade Distribution">
+    </td>
+    <td width="50%">
+      <b>Return per Trade Distribution</b><br>
+      Skew and tail structure showing asymmetry and non-Gaussian behavior in single-trade returns.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/qqplot_returns.png?raw=true" alt="QQ-Plot of Returns">
+    </td>
+    <td width="50%">
+      <b>QQ-Plot</b><br>
+      Deviation from the Gaussian return model highlighting excess kurtosis and fat tails.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/var_cvar.png?raw=true" alt="Tail Risk VaR CVaR">
+    </td>
+    <td width="50%">
+      <b>Tail Risk (VaR / CVaR)</b><br>
+      Historical simulation of losses at 95–99% confidence confirming clustered volatility and heavy downside tails.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/rolling_win_rate_payoff_ratio.png?raw=true" alt="Rolling Win Rate / Payoff Ratio">
+    </td>
+    <td width="50%">
+      <b>Rolling Win Rate / Payoff Ratio</b><br>
+      Behavioral consistency monitor showing how win rate and payoff evolve under different volatility regimes.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/hurst_adf.png?raw=true" alt="Hurst & ADF Test">
+    </td>
+    <td width="50%">
+      <b>Hurst & ADF Test</b><br>
+      Persistence and mean-reversion analysis of the equity process; lower values indicate a decaying structural edge.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/edge_decay_trend.png?raw=true" alt="Edge Decay Trend">
+    </td>
+    <td width="50%">
+      <b>Edge Decay Trend</b><br>
+      Rolling mean P/L trajectory highlighting the rate of structural degradation in the trading edge.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/montecarlo_simulation.png?raw=true" alt="Monte Carlo Simulation">
+    </td>
+    <td width="50%">
+      <b>Monte Carlo Simulation (500 runs)</b><br>
+      Final equity distribution showing outcome dispersion and probability of ruin.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/data/results/charts/cumulative_survival_curve.png?raw=true" alt="Survival Probability Curve">
+    </td>
+    <td width="50%">
+      <b>Survival Probability</b><br>
+      Cumulative likelihood of account persistence under continuous drawdown pressure.
+    </td>
+  </tr>
 </table>
 
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/var_cvar.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Tail Risk (VaR / CVaR)</b><br>
-  Historical simulation of losses at 95–99% confidence confirming clustered volatility and heavy downside tails.
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_win_rate_payoff_ratio.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Rolling Win Rate / Payoff Ratio</b><br>
-  Behavioral consistency monitor showing how win rate and payoff evolve under different volatility regimes.
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/hurst_adf.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Hurst & ADF Test</b><br>
-  Persistence and mean-reversion analysis of the equity process; lower values indicate a decaying structural edge.
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Edge Decay Trend</b><br>
-  Rolling mean P/L trajectory highlighting the rate of structural degradation in the trading edge.
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Monte Carlo Simulation (500 runs)</b><br>
-  Final equity distribution showing expected dispersion, skew, and risk of ruin under random sequencing.
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%">
-  <img src="https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cumulative_survival_curve.png?raw=true" width="100%">
-</td>
-<td width="45%" valign="top">
-  <b>Survival Probability</b><br>
-  Cumulative likelihood of account persistence across simulations, quantifying long-term survivability.
-</td>
-</tr>
-</table>
-
----
 
 ## Quantitative Performance Summary
 
