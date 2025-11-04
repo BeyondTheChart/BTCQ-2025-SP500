@@ -70,9 +70,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### Final Equity Distribution
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/final_equity_distribution.png?raw=true)
 
-### Monte Carlo Simulation
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true)
-
 ### Monte Carlo Fan Chart
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_fan_chart.png?raw=true)
 
