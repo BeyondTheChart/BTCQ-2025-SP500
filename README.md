@@ -79,9 +79,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### Edge Decay Trend
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true)
 
-### Edge Decay Trend (Rolling Avg P/L – 30)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend_rolling.png?raw=true)
-
 ### Edge Decay Timeline
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_timeline.png?raw=true)
 
