@@ -123,35 +123,35 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ## Additional Metrics
 
 ### Return per Trade Distribution
-![Return per Trade Distribution](results/charts/return_per_trade_distribution.png)
+![](results/charts/return_distribution.png)
 Skew and tail structure showing asymmetry and non-Gaussian behavior in single-trade returns.
 
 ### QQ-Plot
-![QQ-Plot](results/charts/qq_plot_returns.png)
+![](results/charts/qqplot_returns.png)
 Deviation from the Gaussian return model highlighting excess kurtosis and fat tails.
 
 ### Tail Risk (VaR / CVaR)
-![Tail Risk (VaR / CVaR)](results/charts/tail_risk_var_cvar.png)
+![](results/charts/var_cvar.png)
 Historical simulation of losses at 95–99% confidence confirming clustered volatility and heavy downside tails.
 
 ### Rolling Win Rate / Payoff Ratio
-![Rolling Win Rate / Payoff Ratio](results/charts/rolling_winrate_payoff_ratio.png)
+![](results/charts/rolling_winrate_payoff_ratio.png)
 Behavioral consistency monitor showing how win rate and payoff evolve under different volatility regimes.
 
 ### Hurst & ADF
-![Hurst & ADF](results/charts/hurst_adf.png)
+![](results/charts/hurst_adf.png)
 Persistence and mean-reversion analysis of the equity process; lower values indicate a decaying structural edge.
 
 ### Edge Decay Trend (Rolling Avg P/L – 30)
-![Edge Decay Trend (Rolling Avg P/L – 30)](results/charts/edge_decay_trend_rolling.png)
+![](results/charts/edge_decay_trend_rolling.png)
 Rolling mean P/L trajectory highlighting short-term decay within broader edge dynamics.
 
 ### Monte Carlo Simulation (500 runs)
-![Monte Carlo Simulation](results/charts/montecarlo_simulation.png)
+![](results/charts/montecarlo_simulation.png)
 Final equity distribution from 500 randomized trade-order simulations, confirming strategy robustness.
 
 ### Survival Probability
-![Survival Probability](results/charts/survival_probability.png)
+![](results/charts/survival_probability.png)
 Cumulative likelihood of account persistence across the trade sequence horizon.
 
 ## Quantitative Performance Summary
