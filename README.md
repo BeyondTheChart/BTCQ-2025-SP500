@@ -123,36 +123,36 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ## Additional Metrics
 
 ### Return per Trade Distribution
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/return_per_trade_distribution.png?raw=true)
+![Return per Trade Distribution](results/charts/return_per_trade_distribution.png)
 Skew and tail structure showing asymmetry and non-Gaussian behavior in single-trade returns.
 
 ### QQ-Plot
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/qq_plot_returns.png?raw=true)
+![QQ-Plot](results/charts/qq_plot_returns.png)
 Deviation from the Gaussian return model highlighting excess kurtosis and fat tails.
 
 ### Tail Risk (VaR / CVaR)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/tail_risk_var_cvar.png?raw=true)
+![Tail Risk (VaR / CVaR)](results/charts/tail_risk_var_cvar.png)
 Historical simulation of losses at 95–99% confidence confirming clustered volatility and heavy downside tails.
 
 ### Rolling Win Rate / Payoff Ratio
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_winrate_payoff_ratio.png?raw=true)
+![Rolling Win Rate / Payoff Ratio](results/charts/rolling_winrate_payoff_ratio.png)
 Behavioral consistency monitor showing how win rate and payoff evolve under different volatility regimes.
 
 ### Hurst & ADF
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/hurst_adf.png?raw=true)
+![Hurst & ADF](results/charts/hurst_adf.png)
 Persistence and mean-reversion analysis of the equity process; lower values indicate a decaying structural edge.
 
 ### Edge Decay Trend (Rolling Avg P/L – 30)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend_rolling.png?raw=true)
+![Edge Decay Trend (Rolling Avg P/L – 30)](results/charts/edge_decay_trend_rolling.png)
 Rolling mean P/L trajectory highlighting short-term decay within broader edge dynamics.
 
 ### Monte Carlo Simulation (500 runs)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/montecarlo_simulation.png?raw=true)
+![Monte Carlo Simulation](results/charts/montecarlo_simulation.png)
 Final equity distribution from 500 randomized trade-order simulations, confirming strategy robustness.
 
 ### Survival Probability
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/survival_probability.png?raw=true)
-Cumulative likelihood of account persistence across trade sequence horizon.
+![Survival Probability](results/charts/survival_probability.png)
+Cumulative likelihood of account persistence across the trade sequence horizon.
 
 ## Quantitative Performance Summary
 
