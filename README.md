@@ -34,9 +34,7 @@ Monte Carlo simulations and regime diagnostics confirm that the strategy’s pos
 All computations were executed using Python (NumPy, SciPy, pandas, statsmodels, matplotlib).  
 The analysis applies both classical statistics and non-linear stochastic diagnostics to capture drift, persistence, and tail asymmetries.
 
----
-
-## 📈 Visual Results
+## Visual Results
 
 ### Equity & Drawdown
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/equity_drawdown.png?raw=true)
@@ -53,6 +51,9 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### Rolling Sharpe & Sortino
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_sharpe_sortino.png?raw=true)
 
+### Rolling Win Rate / Payoff Ratio
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_winrate_payoff_ratio.png?raw=true)
+
 ### Payoff Stability
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/payoff_stability.png?raw=true)
 
@@ -60,7 +61,7 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/risk_curve_cumulative.png?raw=true)
 
 ### Cumulative Survival Curve
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cumulative_survival_curve.png?raw=true)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/survival_probability.png?raw=true)
 
 ### Expected Annual Outcome
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/expected_annual_outcome.png?raw=true)
@@ -79,6 +80,9 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 
 ### Edge Decay Trend
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend.png?raw=true)
+
+### Edge Decay Trend (Rolling Avg P/L – 30)
+![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_trend_rolling.png?raw=true)
 
 ### Edge Decay Timeline
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/edge_decay_timeline.png?raw=true)
@@ -107,21 +111,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ### PACF Returns
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/pacf_returns.png?raw=true)
 
-### Return Distribution
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/return_distribution.png?raw=true)
-
-### QQ-Plot of Returns
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/qqplot_returns.png?raw=true)
-
-### Tail Risk (VaR / CVaR)
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/var_cvar.png?raw=true)
-
-### Rolling Win Rate / Payoff Ratio
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/rolling_win_rate_payoff_ratio.png?raw=true)
-
-### Hurst & ADF Test
-![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/hurst_adf.png?raw=true)
-
 ### Ulcer Index
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/ulcer_index.png?raw=true)
 
@@ -132,9 +121,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/beyond_risk_metrics_table.png?raw=true)
 
 ---
-
-
-
 ## Additional Metrics
 
 | Metric | Description |
@@ -149,10 +135,6 @@ The analysis applies both classical statistics and non-linear stochastic diagnos
 | ![](https://github.com/BeyondTheChart/BTCQ-2025-SP500/blob/main/results/charts/cumulative_survival_curve.png?raw=true) | **Survival Probability** — cumulative likelihood of account persistence over trade iterations. |
 
 ---
-
-
-
-
 ## Quantitative Performance Summary
 
 | Metric | Value |
